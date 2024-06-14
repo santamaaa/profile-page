@@ -15,8 +15,8 @@ const Main = () => {
                     <h2 className="text-myblack text-xl md:text-3xl font-semibold">Hello</h2>
                     <h1 className="mt-2 md:mt-4 text-myblack text-4xl md:text-6xl font-bold">I'm <span className="text-myblue">Santamaa</span></h1>
                     <div className="mt-4 md:mt-8 md:text-right">
-                        <p className="text-myblack text-sm md:text-xl">A <Roles /> Enthusiast</p>
-                        <p className="mt-0.5 md:mt-1 text-myblack text-sm md:text-xl">From Semarang, Indonesia.</p>
+                        <p className="text-myblack text-[13px] md:text-xl">A <Roles /> Enthusiast</p>
+                        <p className="mt-0.5 md:mt-1 text-myblack text-[13px] md:text-xl">From Semarang, Indonesia.</p>
                     </div>
                 </div>
                 <div className="mt-16 md:px-10 lg:px-60 flex justify-between gap-4 md:gap-10 lg:gap-16">
