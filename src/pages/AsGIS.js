@@ -39,7 +39,7 @@ const AsGIS = () => {
                         <div className="w-full h-20 rounded-lg bg-black"></div>
                     </div>
                 </div>
-                <div className="mt-6 mb-3 py-4 md:mt-12 md:mb-6 flex items-center justify-center gap-1 text-myblack3">
+                <div className="mt-6 mb-3 py-4 md:mt-12 md:mb-6 flex items-center justify-start gap-1 text-myblack3">
                     <span className="text-md">&copy;</span>
                     <span className="text-xs">Copyright Santamaa</span>
                     <CurrentYear />
