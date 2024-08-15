@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-const texts = ['Web Development', 'Geographic Information System']
+const texts = ['Web Development', 'Geographic IS']
 const typingSpeed = 100
 const pauseDuration = 2000
 
