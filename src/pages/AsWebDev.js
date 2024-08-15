@@ -24,7 +24,7 @@ const AsWebDev = () => {
             <div className="w-full max-w-[1440px] px-6 md:px-20 lg:px-40">
                 <div className="mt-4 md:mt-12 flex items-center justify-between">
                     <h2 className="text-mywhite2 text-xl md:text-2xl font-bold">Santamaa</h2>
-                    <a className="pl-8 py-2 flex items-center text-right" href="/">
+                    <a className="pl-8 py-2 flex items-center text-right" href="/profile-page">
                         <FontAwesomeIcon className="text-mywhite2 text-2xl ease-in duration-300 hover:scale-125" icon={ faArrowRight } />
                     </a>
                 </div>

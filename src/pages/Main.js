@@ -24,7 +24,7 @@ const Main = () => {
                     <MessageMeModal />
                 </div>
                 <div className="mt-10 md:px-10 lg:px-60 flex items-center justify-between">
-                    <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toleft" href="/as-webdev">
+                    <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toleft" href="/profile-page/as-webdev">
                         <FontAwesomeIcon icon={ faAnglesLeft } />
                     </a>
                     <div className="flex justify-center gap-4 md:gap-8 lg:gap-12">
@@ -38,7 +38,7 @@ const Main = () => {
                             <FontAwesomeIcon icon={ faGithub } />
                         </a>
                     </div>
-                    <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toright" href="/as-gis">
+                    <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toright" href="/profile-page/as-gis">
                         <FontAwesomeIcon icon={ faAnglesRight } />
                     </a>
                 </div>
