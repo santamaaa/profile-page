@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/profile-page">
       <Routes>
         <Route path="/" element={ <Main /> } />
         <Route path="/as-webdev" element={ <AsWebDev /> } />
