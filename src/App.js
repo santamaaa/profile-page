@@ -6,11 +6,11 @@ import './App.css'
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/profile-page">
       <Routes>
-        <Route path="/profile-page/" element={ <Main /> } />
-        <Route path="/profile-page/as-webdev" element={ <AsWebDev /> } />
-        <Route path="/profile-page/as-gis" element={ <AsGIS /> } />
+        <Route path="/" element={ <Main /> } />
+        <Route path="/as-webdev" element={ <AsWebDev /> } />
+        <Route path="/as-gis" element={ <AsGIS /> } />
       </Routes>
     </Router>
   )
