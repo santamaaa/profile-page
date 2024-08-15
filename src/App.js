@@ -1,12 +1,12 @@
 import './App.css'
-import Roles from "./components/Roles"
-import ViewResumeModal from "./components/ViewResumeModal"
-import MessageMeModal from "./components/MessageMeModal"
+import Roles from './components/Roles'
+import ViewResumeModal from './components/ViewResumeModal'
+import MessageMeModal from './components/MessageMeModal'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faAnglesLeft, faAnglesRight } from "@fortawesome/free-solid-svg-icons"
+import { faAnglesLeft, faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 import MyPhoto from './assets/photo.svg'
-import CurrentYear from "./components/CurrentYear"
+import CurrentYear from './components/CurrentYear'
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
                 <MessageMeModal />
             </div>
             <div className="mt-10 md:px-10 lg:px-60 flex items-center justify-between">
-                <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toleft" href="/">
+                <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toleft" href="https://santamaa.github.io/projects-webdev">
                     <FontAwesomeIcon icon={ faAnglesLeft } />
                 </a>
                 <div className="flex justify-center gap-4 md:gap-8 lg:gap-12">
@@ -39,7 +39,7 @@ function App() {
                         <FontAwesomeIcon icon={ faGithub } />
                     </a>
                 </div>
-                <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toright" href="/">
+                <a className="w-10 md:w-12 h-10 md:h-12 grid place-items-center border-2 border-myblue rounded-full bg-myblue text-mywhite text-xl md:text-2xl ease-in duration-300 hover:bg-mywhite hover:text-myblue hover:scale-125 cursor-pointer animate-toright" href="https://santamaa.github.io/projects-gis">
                     <FontAwesomeIcon icon={ faAnglesRight } />
                 </a>
             </div>
