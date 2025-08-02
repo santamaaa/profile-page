@@ -30,13 +30,13 @@ function App() {
                 </a>
             </div>
             <div className="mt-10 px-10 md:px-40 lg:px-[360px] flex flex-col-reverse md:flex-row items-center justify-between gap-x-10 gap-y-2">
-                <a href="https://santamaaa.github.io/webdev-projects/" target="_blank" rel="noreferrer" className="flex self-start items-center gap-1 md:gap-3 text-myblack text-sm md:text-md font-semibold tracking-wider group">
+                <a href="https://santamaaa.github.io/webdev-projects/" rel="noreferrer" className="flex self-start items-center gap-1 md:gap-3 text-myblack text-sm md:text-md font-semibold tracking-wider group">
                     <svg height="36" className="group-hover:-translate-x-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20 12H4M4 12L10 6M4 12L10 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                     WebDev Projects
                 </a>
-                <a href="https://santamaaa.github.io/gis-projects/" target="_blank" rel="noreferrer" className="flex self-end items-center gap-1 md:gap-3 text-myblack text-sm md:text-md font-semibold tracking-wider group">
+                <a href="https://santamaaa.github.io/gis-projects/" rel="noreferrer" className="flex self-end items-center gap-1 md:gap-3 text-myblack text-sm md:text-md font-semibold tracking-wider group">
                     GIS Projects
                     <svg height="36" className="rotate-180 group-hover:translate-x-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20 12H4M4 12L10 6M4 12L10 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
