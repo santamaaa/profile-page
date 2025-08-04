@@ -2,8 +2,8 @@ const CareerCard = ({ position, agency, period, jobdesk }) => {
     return (
         <div className="w-full flex even:flex-row-reverse gap-[20px] relative text-myblack md:even:text-right group cursor-default">
             <div className="w-full md:w-[calc(50%-20px)] rounded-lg bg-mywhite group-hover:shadow-md">
-                <h4 className="pt-5 px-5 text-sm font-semibold">{ position }</h4>
-                <h4 className="mt-3 pb-0 md:pb-5 px-5 text-xs font-semibold md:italic">{ agency }</h4>
+                <h3 className="pt-5 px-5 text-sm font-semibold">{ position }</h3>
+                <h3 className="mt-3 pb-0 md:pb-5 px-5 text-xs font-semibold md:italic">{ agency }</h3>
                 <p className="mt-2 pb-5 px-5 md:hidden text-xs italic">{ period }</p>
             </div>
 

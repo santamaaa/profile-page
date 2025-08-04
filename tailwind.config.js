@@ -14,7 +14,7 @@ module.exports = {
         "mywhite": "#EFEFEF",
         "mywhite2": "#FAFAFA"
       }
-    },
+    }
   },
   plugins: []
 }
