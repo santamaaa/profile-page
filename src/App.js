@@ -126,10 +126,10 @@ function App() {
 
             <div className="mt-8 md:mt-10 mx-5 md:mx-12 lg:mx-80 p-7 md:p-10 flex flex-col rounded-lg shadow-md bg-mywhite2">
                 <h2 className="mb-5 md:mb-7 text-myblack text-xl md:text-2xl md:text-center font-semibold tracking-wider">Additional Interests</h2>
-                <div className="flex flex-wrap items-center justify-center gap-x-7 gap-y-3">
+                <div className="flex flex-wrap items-center md:justify-center gap-3 md:gap-5">
                     {
                         mySkills.filter(c => c.category === "others").map((data, index) => (
-                            <p key={ index } className="w-[160px] h-[40px] grid place-items-center rounded-md bg-mywhite text-myblack text-sm tracking-wider">
+                            <p key={ index } className="w-auto md:w-[160px] h-[40px] px-5 grid place-items-center md:justify-center rounded-md bg-mywhite text-myblack text-sm tracking-wider">
                                 { data.tool }
                             </p>
                         ))
