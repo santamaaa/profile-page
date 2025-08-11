@@ -14,7 +14,7 @@ function App() {
                 <h1 className="mt-2 md:mt-4 text-3xl md:text-5xl font-bold">I'm <span className="text-myblue">Santamaaa</span></h1>
                 <div className="mt-4 md:mt-8 text-right">
                     <p className="text-base md:text-xl">A <Roles /> Enthusiast</p>
-                    <p className="mt-0.5 md:mt-1 text-xs md:text-base">From Semarang, Indonesia.</p>
+                    <p className="mt-0.5 md:mt-1 text-xs md:text-base">Focusing on Parctical Tech-Based Solutions</p>
                 </div>
             </div>
 
